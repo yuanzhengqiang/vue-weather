@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="weather forecast 天气预报"/>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*"/>
+    <meta name="description" content="一款可以查看最近天气情况的单页面应用。"/>
+    <meta name="robots" content="index,nofollow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <meta content="telephone=no" name="format-detection" /> 
+    <title>天气查询</title>
+
+    <script type="text/javascript" src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+</head>
+<body>
+    <div id="main">
+        <app></app>
+    </div>
+    <!-- 弹窗 -->
+    <div class="modalBox" id="modalAdviceBox">
+        <span id="modalAdvice" class="modalAdvice"></span>
+    </div>
+    <!-- 半透明遮罩 -->
+    <div class="shade" id="shade"></div>
+<script type="text/javascript" src="main.js"></script></body>
+</html>
