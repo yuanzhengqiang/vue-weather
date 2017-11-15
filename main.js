@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "aa94575f5d218e181074"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "d9f93154c39f854d845a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -13070,7 +13070,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_
         var oHead = document.getElementsByTagName('HEAD').item(0);
         var oScript = document.createElement("script");
         oScript.type = "text/javascript";
-        oScript.src = "http://api.map.baidu.com/getscript?v=2.0&ak=A396783ee700cfdb9ba1df281ce36862&services=&t=20170717103214";
+        oScript.src = "https://api.map.baidu.com/getscript?v=2.0&ak=A396783ee700cfdb9ba1df281ce36862&services=&t=20170717103214";
         oHead.appendChild(oScript);
         oScript.onload = function (date) {
           var point = new BMap.Point(longitude, latitude);
